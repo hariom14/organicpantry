@@ -1,0 +1,422 @@
+body{
+  margin:0;
+}
+ h1{
+   font-family:'Bree Serif', serif;
+   font-size: 3rem;
+   font-weight: bold;
+   padding:3% auto 0;
+ }
+h2{
+  text-align: center;
+  font-weight: bold;
+  padding: 5% auto;
+  font-family: 'Donegal One', serif;
+}
+h3{
+  font-family: 'Donegal One', serif;
+  font-weight: bold;
+}
+h4{
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Donegal One', serif;
+}
+h5{
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Donegal One', serif;
+}
+p{
+  font-family:'PT Serif Caption', serif;
+  color: #8f8f8f;
+  text-align: justify;
+}
+#title{
+  background-color:#79d70f;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+}
+
+/* navbar */
+
+.navbar-brand{
+  font-family:'Lobster', cursive;
+  font-size: 2.5rem;
+  padding: 0px 5px;
+}
+
+
+.nav-item{
+  padding:10px 10px;
+  font-family: 'Donegal One', serif;
+  transition: 1s;
+}
+
+.nav-item:hover{
+  padding:10px 35px;
+  font-size: 18px;
+}
+/* carousel */
+
+.carousel-content{
+  background-color: rgba(0, 0, 0, 0.4);;
+  position: absolute;
+  top: 50%; left: 50%;
+  padding: 3%;
+  transform: translate(-50%,-50%);
+  border-radius: 10%;
+}
+
+.carousel-head-text{
+  color: #fff;
+  font-size: bold;
+  font-size: 50px;
+}
+
+.carousel-para{
+  color:#fff;
+  text-align: justify;
+}
+
+.ca1{
+background-image: url("mixed-fruitveg.jpg");
+}
+.ca2{
+  background-image: url("dairy-products.jpg");
+}
+
+.ca3{
+  background-image: url("herbs2.jpg");
+}
+
+.ca4{
+  background-image: url("mixed-veg0.jpg");
+}
+
+.ca5{
+  background-image: url("grocery-shop.jpg");
+}
+
+.ca6{
+  background-image: url("mixeditems.jpg");
+}
+
+.ca-common{
+  position: relative;
+  background-position: center;
+  background-size:cover;
+  padding: 22% 0;
+  margin-top: 5%;
+}
+/* about */
+
+#topic1{
+  padding: 1% 15% 4%;
+}
+
+#topic{
+  padding: 0% 15%;
+}
+
+.head-para{
+  text-align: center;
+  color: #fff;
+  padding-bottom: 2%;
+}
+.main-head{
+  text-align: center;
+  margin: 10% 0 3%;
+  background-color:#ff5200;
+  color: #fff;
+}
+
+.main-head1{
+    text-align: center;
+    margin: 1% 0 3%;
+    background-color:#ff5200;
+    color: #fff;
+  }
+
+
+.about-row{
+  text-align: left;
+  padding: 3%;
+  margin: 5% auto 1%;
+}
+
+.about-image1{
+  float: left;
+  width: 40%;
+  margin: 2%;
+  transition: 1s;
+}
+.about-image2{
+  float: right;
+  width: 40%;
+  margin: 2%;
+  transition: 1s;
+}
+
+.about-image1:hover{
+  transform: scale(1.1,1.3);
+}
+
+.about-image2:hover{
+  transform: scale(1.1,1.3);
+}
+
+/* footer */
+
+#footer{
+  background-color: #79d70f;
+  text-align: center;
+  color: #fff;
+  font-family: 'PT Serif Caption', serif;
+  padding:1% 15% ;
+}
+
+.footer-icon{
+  padding: 1%;
+}
+.white-para{
+  color: #fff;
+  text-align: center;
+}
+
+
+/* feature page */
+
+#feature{
+  padding: 6% 9% 3% 10%;
+  background-image: url("fruits2.jpg");
+  margin-bottom: 5%;
+  background-position: center;
+  background-size: cover;
+}
+
+.row2{
+  margin-left: 0;
+  margin-right: 0;
+}
+.feature-box1{
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5%;
+  padding: 1% 2%;
+  margin: 0% auto 5%;
+  text-align: center;
+}
+
+.feature-box2{
+  background-color: rgba(255, 0, 0, 0.4);
+  border-radius: 5%;
+  padding: 1% 2%;
+  margin: 0% auto 5%;
+  text-align: center;
+}
+
+.feature-para{
+  color: #fff;
+  text-align: justify;
+}
+
+.feature-icon{
+  color: white;
+  margin: 0% auto 3%;
+}
+/* Product page */
+
+#card-fruitveg-medi{
+  text-align: center;
+padding: 0 7% 2% ;
+border: 2px solid  #79d70f;
+margin:0% 4% 4%;
+border-radius: 2%;
+}
+
+#card-dairy-grocery{
+  text-align: center;
+padding: 0 7% 2% ;
+border: 2px solid #ff5200;
+margin:0% 4% 4%;
+border-radius: 2%;
+}
+.card-body h4{
+  color: #000;
+  font-weight: normal;
+  font-family: 'Donegal One', serif;
+}
+.fruit-row{
+  margin-bottom: 2%;
+}
+
+.product-heading{
+  padding: 2%;
+}
+
+.product-btn{
+  margin: 2% auto 0;
+}
+
+.card-para{
+  text-align: center;
+}
+
+/* .card-btn{
+  font-size: 20px;
+} */
+
+
+/* testimonial page */
+
+#testimonial{
+  padding: 7% 0;
+}
+
+#carousel{
+  padding: 3% 15% 0;
+}
+.testimonial-img{
+  width: 80%;
+  float: right;
+  border-radius: 10%;
+  margin: 8% 0 1% 5%;
+  transition: 1s;
+}
+
+.testimonial-img:hover{
+  transform: scale(1.2,1.2);
+}
+
+.testimonial-carousel{
+  background-color:#2a1a5e;
+  padding: 3% 5%;
+  text-align: center;
+  color: #fff;
+}
+.testimonial-item{
+  padding: 1% 20%;
+}
+
+.testimonial-carousel-image{
+  padding: 3%;
+  margin: 2% auto;
+  width:200px; height: 200px;
+  border-radius: 100%;
+}
+
+.testimonial-text{
+  text-align: justify;
+}
+
+/* contact page */
+#contact{
+  padding: 4% 10% 7%;
+  background-color: rgba(40, 40, 255, 0.3);
+  margin: 0 0 4%;
+
+}
+
+.contact-img{
+  width: 100%;
+  float: right;
+  border-radius: 10%;
+  margin: 8% 0 1% 5%;
+  transition: 1s;
+}
+
+.contact-img:hover{
+  transform: scale(1.1,1.1);
+}
+
+.contact-form-heading{
+  margin: 20% 2% 3%;
+  text-align: justify;
+}
+
+.cont-details{
+  margin: 7% 2% 2%;
+}
+
+/* form */
+.testimonial-contact-form{
+margin: 8% 1% 1%;
+}
+.col-form-label{
+  font-size: 20px;
+}
+
+/* media Querries */
+
+@media (max-width:1200px) and (min-width:860px) {
+  .main-head{
+    margin: 15% 0 3%;
+  }
+}
+
+@media (max-width:860px) and (min-width:120px) {
+  .main-head{
+    margin: 25% 0 3%;
+  }
+}
+
+@media (max-width:860px) and (min-width:500px) {
+  .carousel-content{
+    margin: 2% 0 0;
+    padding: 4%;
+    text-align: justify;
+  }
+  .carousel-head-text{
+    color: #fff;
+    font-size: 30px;
+  }
+
+ .carousel-para{
+    font-size: 15px;
+    color:#fff;
+    text-align: justify;
+  }
+}
+
+@media (max-width:700px){
+  .carousel-content{
+    margin: 7% 0 0;
+    padding: 0 1%;
+    text-align: justify;
+  }
+  .carousel-head-text{
+    color: #fff;
+    font-size: 21px;
+  }
+
+ .carousel-para{
+    font-size: 12px;
+    color:#fff;
+    text-align: justify;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+    margin-top: 50%;
+  }
+}
+
+
+  /* green */
+#79d70f;#2b580c;#4e9525;
+
+/* blue */
+#10eaf0;#0028ff;
+#730068;#721b65;
+#fe346e;#2a1a5e;
+
+/* yellow */
+#ffd700;#f9ff21;
+#fbff5f;
+#f9ff21;
+
+/* pink
+#f54291;#b5076b;
+#9d0b0b;
+/* font-family */
+font-family: 'Donegal One', serif;
